@@ -46,8 +46,10 @@ body{
 }
 
 #header img{
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px blue inset;
 }
 
 /* Header start*/
@@ -56,7 +58,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #E3E6F3;
+    background-color: #565454;
     box-shadow: 0 5px 15px  blue inset;
     z-index: 999;
     position: sticky;
@@ -292,6 +294,291 @@ body{
     bottom: 20px;
     right: 20px;
 }
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner/web-design-2906159_1280.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
 
+#banner h4{
+    color: rgb(250, 250, 250) ;
+    font-size: 25px;
+
+}
+#banner h2{
+    color: rgb(250, 250, 250) ;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: red;
+    font-weight: bold;
+}
+
+#banner .shop-btn{
+    width: 200px;
+    align-self: center;
+}
+
+.shop-btn {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+}
+
+.shop-btn .text {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.shop-btn:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+}
+
+.shop-btn:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.shop-btn:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    transition: 0.8s ease;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-image: url("img/banner/web-design-2906159_1280.jpg");
+    min-width: 580px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 10px;
+    
+    
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("img/banner/binary-2372130_1280.jpg");
+}
+#sm-banner h4{
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2 {
+    color: rgb(250, 250, 250);
+    font-size: 48px;
+    font-weight: 800;
+}
+#sm-banner span {
+    color: rgb(250, 250, 250);
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.shop-btn2 {
+    width: 150px;
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: rgb(68, 0, 255);
+}
+
+.shop-btn2 .text {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.shop-btn2:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+}
+
+.shop-btn2:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.shop-btn2:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    transition: 0.8s ease;
+}
+#banner3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 90px;
+}
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    background-image: url("img/banner/matrix-3408060_1280.jpg");
+    min-width: 48%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+#banner3 .banner-box2{
+    background-image: url("img/banner/road-363265_1280.jpg");
+}
+#banner3 .banner-box3 {
+    background-image: url("img/banner/ai-generated-8237711_1280.jpg");
+}
+
+#banner3 h2{
+    color: rgb(250, 250, 250);
+    font-weight: 900;
+    font-size: 82px;
+}
+#banner3 h3 {
+    color: rgb(212, 28, 28);
+    font-weight: 800;
+    font-size: 22px;
+    padding-left: 80px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner/circuit-board-780321_1280.jpg");
+    background-position: 20% 30%;
+    
+    
+}
+#newsletter h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+#newsletter p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+#newsletter p span {
+    
+    color: rgb(225, 228, 20);
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+#newsletter input {
+    height: 3.125rem;
+    padding:  0 1.25em;
+    font-size: 14px;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 180px;
+    
+}
+#newsletter button {
+    width: 150px;
+    margin-left: 10px;
+}
+
+
+.row #google{
+    width: 150px;
+
+}
+.col #payment{
+width: 200px;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    
+    flex-wrap: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+footer .col1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .logo{
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px blue inset;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
 
 /* Shop page */
