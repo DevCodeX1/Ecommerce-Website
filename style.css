@@ -171,6 +171,57 @@ body{
   background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
 }
 
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(6, 34, 193, 0.438);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    margin:  15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(6, 34, 193, 0.438);
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 9px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #f8f8f8;
+    background-color: #657ddd;
+}
+#feature .fe-box:nth-child(2) h6{
+    background-color: rgb(26, 183, 191);
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: rgb(14, 14, 240);
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: rgb(222, 49, 10);
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color: rgb(36, 175, 239);
+}
+#feature .fe-box:nth-child(6) h6{
+    background-color: rgb(7, 197, 7);
+}
+
+
+#feature img{
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
 
 
 
